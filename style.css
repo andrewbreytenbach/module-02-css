@@ -1,0 +1,77 @@
+/* This is the universal selector specifying the default padding, margin, font-size, and box-sizing for the web page. */
+* { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+.header {
+    background-color: #494a48;
+    color: rgb(86, 210, 210);
+}
+
+#diagonal-image {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    float: left;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #494a48;
+    margin: 10px;
+}
+
+h1 span, h3 span {
+    background-color: rgb(86, 210, 210);
+}
+
+.img {
+    position: relative;
+}
+
+.subtitle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+ul {
+    list-style-type: none ;
+}
+
+nav li {
+    float: right;
+  }
+  
+nav a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+.contact-me li {
+    float: right;
+  }
+  
+.contact-me a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+h2 {
+    float: left;
+    margin: 0 1.5%;
+    width: 25%;
+}
+
+.float-right {
+    float: right;
+    margin: 0 1.5%;
+    width: 75%;
+}
