@@ -1,8 +1,10 @@
 /* This is the universal selector specifying the default padding, margin, font-size, and box-sizing for the web page. */
 * { 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 body {
     background-color: #d9dcd6;
 }
@@ -11,9 +13,19 @@ body {
     color: rgb(86, 210, 210);
 }
 
-#diagonal-image {
-    max-width: 100%;
-    height: auto;
+nav li a {
+    background-color: #494a48;
+    color: rgb(86, 210, 210);
+    font-weight: bold;
+}
+
+.img {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/blue.diagonal.stripes.background.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
@@ -24,6 +36,7 @@ h1, h3 {
     text-align: center;
     color: #494a48;
     margin: 10px;
+    padding: 5px;
 }
 
 h1 span, h3 span {
@@ -64,10 +77,17 @@ nav a {
     background-color: #dddddd;
   }
 
+.contact-me li a {
+    color: rgb(45, 48, 81);
+    font-weight: bold;
+}
+
 h2 {
+    color: rgb(45, 48, 81);
     float: left;
     margin: 0 1.5%;
     width: 25%;
+    border-right: 5px solid rgb(45, 48, 81);
 }
 
 .float-right {
@@ -75,3 +95,9 @@ h2 {
     margin: 0 1.5%;
     width: 75%;
 }
+
+@media screen and (max-width: 575px) {
+    .body {
+      flex-direction: column;
+    }
+  }
