@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+
 header {
     background-color: #494a48;
     color: rgb(86, 210, 210);
@@ -98,4 +99,18 @@ h2 {
     margin: 0 1.5%;
     width: 25%;
     border-right: 5px solid rgb(45, 48, 81);
+    padding: 5px;
+}
+
+p {
+    color: rgb(45, 48, 81);
+}
+
+ul li a {
+    font-weight: bold;
+    float: right;
+    display: block;
+    padding: 8px;
+    color: rgb(45, 48, 81);
+    text-align: center;
 }
