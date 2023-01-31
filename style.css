@@ -1,4 +1,3 @@
-/* This is the universal selector specifying the default padding, margin, font-size, and box-sizing for the web page. */
 * { 
     box-sizing: border-box;
     padding: 0;
@@ -8,24 +7,55 @@
 body {
     background-color: #d9dcd6;
 }
-.header {
+header {
     background-color: #494a48;
     color: rgb(86, 210, 210);
 }
 
-nav li a {
+nav a {
     background-color: #494a48;
     color: rgb(86, 210, 210);
     font-weight: bold;
+    float: right;
+    display: block;
+    padding: 8px;
 }
 
+/* Flexbox container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* Left-side heading */
+.heading {
+    width: 25%;
+    text-align: center;
+  }
+
+  /* Right-side content */
+.content {
+    width: 75%;
+    text-align: center;
+  }
+
 .img {
-    height: 200px;
+    height: 25%;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("/blue.diagonal.stripes.background.jpeg");
-    background-size: cover;
-    background-position: center;
+    position: relative;   
+}
+
+.subtitle {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.header-img {
+    height: 200px;
+    width: 100%; 
 }
 
 h1 {
@@ -43,30 +73,10 @@ h1 span, h3 span {
     background-color: rgb(86, 210, 210);
 }
 
-.img {
-    position: relative;
-}
-
-.subtitle {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 ul {
     list-style-type: none ;
 }
-
-nav li {
-    float: right;
-  }
-  
-nav a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
-
+   
 .contact-me li {
     float: right;
   }
@@ -89,15 +99,3 @@ h2 {
     width: 25%;
     border-right: 5px solid rgb(45, 48, 81);
 }
-
-.float-right {
-    float: right;
-    margin: 0 1.5%;
-    width: 75%;
-}
-
-@media screen and (max-width: 575px) {
-    .body {
-      flex-direction: column;
-    }
-  }
