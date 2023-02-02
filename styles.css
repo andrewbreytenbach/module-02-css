@@ -2,154 +2,108 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  body {
     background-color: #d9dcd6;
-}
-
-header {
+  }
+  
+  header {
     background-color: #494a48;
     color: rgb(86, 210, 210);
-}
-
-nav a {
+  }
+  
+  nav a {
     background-color: #494a48;
     color: rgb(86, 210, 210);
     font-weight: bold;
     float: right;
     display: block;
     padding: 8px;
-}
-
-.images {
-    flex: 2;
-    margin: 10px;
   }
   
-  @media (max-width: 768px) {
-    .images {
-      max-width: 100%;
-      height: auto;
-      margin: 10px 0;
-    }
-  }  
-
-/* Flexbox container */
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50vh;
-  }
-
-  /* Left-side heading */
-.heading {
-    width: 25%;
-    text-align: center;
-  }
-
-  /* Right-side content */
-.content {
-    width: 75%;
-    text-align: center;
-  }
-
-.img {
-    height: 25%;
+  .img {
     width: 100%;
     position: relative;   
-}
-
-.subtitle {
+  }
+  
+  .subtitle {
     position: absolute;
     bottom: 8px;
     right: 16px;
-}
-
-.header-img {
+  }
+  
+  .header-img {
     height: 200px;
     width: 100%; 
-}
-
-h1 {
-    float: left;
-}
-
-h1, h3 {
+  }
+  
+  h1 {
     text-align: center;
     color: #494a48;
     margin: 10px;
     padding: 5px;
-}
-
-h1 span, h3 span {
-    background-color: rgb(86, 210, 210);
-}
-
-ul {
-    list-style-type: none ;
-}
-   
-.contact-me li {
-    float: center;
   }
   
-.contact-me a {
+  h1 span {
+    background-color: rgb(86, 210, 210);
+  }
+  
+  ul {
+    list-style-type: none ;
+  }
+  
+  .contact-me li {
+    text-align: center;
+  }
+  
+  .contact-me a {
     display: flex;
     padding: 8px;
     background-color: #dddddd;
   }
-
-.contact-me li a {
+  
+  .contact-me li a {
     color: rgb(45, 48, 81);
     font-weight: bold;
-}
-
-h2 {
+  }
+  
+  h2 {
     color: rgb(45, 48, 81);
-    float: left;
     margin: 10 1.5%;
-    width: 50%;
     border-right: 5px solid rgb(45, 48, 81);
     padding: 5px;
-}
-
-p {
+  }
+  
+  p {
     color: rgb(45, 48, 81);
-}
-
-ul li a {
+  }
+  
+  ul li a {
     font-weight: bold;
-    float: right;
     display: block;
     padding: 8px;
     color: rgb(45, 48, 81);
     text-align: center;
-}
-
-.container .content .images {
+  }
+  
+  .container .content .images {
     display: flex;
     flex-direction: row;
   }
-
+  
   @media (max-width: 720px) {
-    .container .content .images{
+    .container .content .images {
       flex-direction: column;
     }
   }
-
-.images {
-    height: 100%;
+  
+  .images {
     width: 100%;
-}
-
-.images:hover {
-    height: 110%;
-    width: 110%;
-}
-
-#study-guide-img {
+  }
+  
+  #study-guide-img {
     background-image: url(./images/study-guide.webp);
     background-clip: text;
     color: transparent;
