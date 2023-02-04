@@ -278,3 +278,39 @@ h4 {
     justify-content: space-around;
   }
 }
+@media (min-width: 950px) {
+  body {
+      font-size: 16px;
+      width: 80%;
+      max-width: none;
+    }
+    .images {
+      width: 80%;
+      height: 80%;
+    }
+  }
+  
+@media (max-width: 949px) {
+  body {
+      font-size: 12px;
+      width: 60%;
+      max-width: none;
+    }
+    .images  {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+      body {
+          font-size: 10px;
+          width: 40%;
+          max-width: none;
+      }
+
+      .images {
+        width: 40%;
+        height: 40%;
+      }
+    }

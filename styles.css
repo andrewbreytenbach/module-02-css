@@ -33,7 +33,7 @@ nav a {
     padding: 8px;
     }
 
-.recent_photo {
+.recent_photo, .images {
     height: 350px;
     width: 250px;
     }
@@ -168,3 +168,9 @@ h4 {
       transform: scale(1.1);
       filter: brightness(80%)
     }
+
+#placeholder {
+    height: 250px;
+    width: 350px;
+}
+
