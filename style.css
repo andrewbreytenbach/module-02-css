@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --lightest-color: #2b2a29; 
   --beige: #807d7a; 
   --tan: #c7b198; 
@@ -19,21 +19,21 @@
   header {
     color: var(--navy);
     background-color: var(--lightest-color);
-  }
+  } */
   
-  nav a {
+  /* nav a {
     background-color: var(--lightest-color);
     color: var(--navy);
     font-weight: bold;
     float: right;
     display: block;
     padding: 8px;
-  }
+  } */
 
-  .recent_photo {
+  /* .recent_photo {
     height: 350px;
     width: 250px;
-  }
+  } */
   
   .images {
     flex: 2;
@@ -54,7 +54,15 @@
     justify-content: space-between;
     align-items: center;
     height: 50vh;
+    border: 1px solid white;
   }
+
+  @media (max-width: 650px) {
+    #aboutMe {
+      font-size: 10px;
+    }
+  }  
+
 
   /* Left-side heading */
 .heading {
@@ -69,9 +77,9 @@
   }
 
 .img {
-    height: 50%;
+    height: 25%;
     width: 100%;
-    position: relative;   
+    margin-top: 20px;
 }
   
   .subtitle {
@@ -141,13 +149,16 @@
     text-align: center;
   }
   
-  .container .content .images {
-    display: flex;
-    flex-direction: row;
+  @media screen and (max-width: 1050px) {
+    #contactInfoItems {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
   }
   
   @media (max-width: 720px) {
-    .container .content .images {
+     .content .images {
       flex-direction: column;
     }
   }
