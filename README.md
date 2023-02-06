@@ -11,7 +11,7 @@ This project was to create a professional portfolio to be used as a place to sho
 
 ## Getting Started
 
-In order to acess this website, just visit the following webpage: [https://andrewbreytenbach.github.io/professional-portfolio-website/]   (https://andrewbreytenbach.github.io/professional-portfolio-website/)
+In order to acess this website, just visit the following webpage: [https://andrewbreytenbach.github.io/professional-portfolio-website/]   (Professional-Portfolio-Website)
 
 To get a local copy up and running, simply view the index.html file or the style.css file and see how you can play around, copy, and edit the fle for personal usage. 
 
