@@ -17,7 +17,7 @@ To get a local copy up and running, simply view the index.html file or the style
 
 ## Usage
 
-This is an excellent place to view some of the projects I ahve worked on. For example, but clicking on the 'Project 1' image, then you will be redirected to my Project 1 page. There the user can see my files, such as html and css files, and in the future even javasceipt files. 
+This is an excellent place to view some of the projects I have worked on. For example, but clicking on the 'Project 1' image, then you will be redirected to my Project 1 page. There the user can see my files, such as html and css files, and in the future even javasceipt files. 
 
 Additionally, if the user wishes to reach me personally by contacting me, then they can click on any of the 'contact me' links at the bottom of the webpage. 
 
