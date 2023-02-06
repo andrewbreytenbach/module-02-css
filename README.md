@@ -11,7 +11,7 @@ This project was to create a professional portfolio to be used as a place to sho
 
 ## Getting Started
 
-In order to acess this website, just visit the following webpage: [https://andrewbreytenbach.github.io/professional-portfolio-website/] (https://andrewbreytenbach.github.io/professional-portfolio-website/)
+In order to acess this website, just visit the following webpage: [https://andrewbreytenbach.github.io/professional-portfolio-website/]   (https://andrewbreytenbach.github.io/professional-portfolio-website/)
 
 To get a local copy up and running, simply view the index.html file or the style.css file and see how you can play around, copy, and edit the fle for personal usage. 
 
@@ -37,7 +37,7 @@ Project Link: [https://github.com/andrewbreytenbach/professional-portfolio-websi
 
 ## Acknowledgments
 
-* [https://www.w3docs.com/](W3 Docs)
-* [https://developer.mozilla.org/en-US/](MDN Web Docs)
-* [https://html.com/](HTML for Beginners)
-* [https://blog.hubspot.com/website/css-tutorial](The Ultimate CSS Tutorial for Beginner Programmers)
+* [https://www.w3docs.com/] (W3 Docs)
+* [https://developer.mozilla.org/en-US/] (MDN Web Docs)
+* [https://html.com/] (HTML for Beginners)
+* [https://blog.hubspot.com/website/css-tutorial] (The Ultimate CSS Tutorial for Beginner Programmers)
