@@ -1,3 +1,4 @@
+/* This uses the root selector to create variables for the colors, so they can be changed and then called easily without manually changing each individual color. */
 :root {
     --charcoal: #2b2a29; 
     --forest: #0e4a34; 
@@ -5,12 +6,14 @@
     --white: #eef4ee; 
     }
 
+/* This sets the header image width and height for the banner of the website. */
 #header-background {
     width: 100%;
     height: 350px;
     background:url(./images/skyline2.jpeg);
     }   
 
+/* This calls the universal selector for every base item on the website, and it sets the font-family as well.  */
 * { 
     box-sizing: border-box;
     padding: 0;
@@ -18,13 +21,14 @@
     font-family: 'FreeMono', sans-serif;
     }
 
+/* This sets the color of the header using one of the root variables and it sets the passing as well. */
 header {
     color: var(--eggshell);
     padding: 25px;
     }
 
 
-
+/* This selector targets all of the anchor elements in the nav bar. It sets their color, font-weight, floats them to the right, and puts them in a block display. */
 nav a {
     color: var(--eggshell);
     font-weight: bold;
@@ -33,22 +37,26 @@ nav a {
     padding: 8px;
     }
 
+/* This sets the height and width of my recent image. */
 .recent_photo, .images {
     height: 350px;
     width: 250px;
     }
 
+/* This sets the background color and text color for the body of the website.  */
 body {
     background-color: var(--eggshell);
     color: var(--forest);
 }
 
+/* This centers the text for the h4 elements, and it sets their color and gives them a bottom padding of 10px. */
 h4 {
     text-align: center;
     color: var(--navy);
     padding-bottom: 10px;
   }
 
+/* This targets the anchor elements in the footer of the webpage and sets their properties to the same as those in the nav bar. */
 .content-contact-me ul li a {
     font-weight: bold;
     text-align: center;
@@ -56,11 +64,13 @@ h4 {
     padding: 8px;
 }
 
+/* This moves all of the headers of the website to the left side of the webpage, centers their text, and gives them a left margin. */
 .heading-about-me, .heading-work, .heading-contact-me {
     margin-left: 25px;
     text-align: center;
 }
 
+/* This selects the .container-about-me class and gives it a flex display, so the images and everything else in the box will have flexbox style. */
 .container-about-me {
     display: flex;
     justify-content: space-between;
@@ -70,28 +80,33 @@ h4 {
     flex-wrap: wrap;
   }
 
+/* This sets the flex properties and the shrink/growth numbers of the selected classes. */
 .heading-about-me, .recent_photo, .content-about-me {
     list-style: none;
     flex: 0 0 33.333333%;
     }
 
+/* This boldens the font and gives the classes a right margin. */
 .content-about-me, .content-work {
     font-weight: bold;
     margin-right: 25px;
 }
 
+/* This selects the .container-work class and gives it a flex display, so the images in the project section will display properly. */
 .container-work {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     border: 2px solid var(--forest);
   }
-  
+
+/* This sets the flex properties and the shrink/growth numbers of the selected classes, as well as a margin. */
   .heading-work, .content-work {
     flex: 0 0 calc(33.33% - 10px);
     margin: 5px;
   }
-  
+
+/* This selects the .image-container inside of the .container-work flexbox, making sure they stack nicely on top of one another. */
   .image-container {
     display: flex;
     flex-wrap: wrap;
@@ -100,17 +115,20 @@ h4 {
     flex: 0 0 calc(33.33% - 10px);
     margin: 5px;
   }
-  
+
+/* This sets the flex properties and the shrink/growth numbers of the selected classes, as well as a margin. */
   .image-container-flex {
     flex: 0 0 calc(40% - 10px);
     margin: 5px;
   }
-  
+
+/* This sets the relative positioning of the image within th container, and centers the text to be inside of the image. */
   .image-container-flex {
     position: relative;
     text-align: center;
   }
-  
+
+/* This uses absolute positioning to put the project images behind the text and put the description of the images in the middle of the box. */
   .image-text {
     position: absolute;
     top: 80%;
@@ -122,6 +140,7 @@ h4 {
     padding: 2px;
   }
 
+/* This uses flex properties for hte contact me sections to get the list items to display horizontally. */
   .container-contact-me {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -131,16 +150,19 @@ h4 {
     border: 2px solid var(--forest);
     border-bottom: 0;
   }
-  
+
+/* This sets the flex properties and the shrink/growth numbers of the selected classes, as well as a right margin. */
   .heading-contact-me {
     flex: 0 0 33%;
     margin-right: 10px;
   }
-  
+
+/* This sets the flex properties and the shrink/growth numbers of the .content-contact-me class. */
   .content-contact-me {
     flex: 0 0 66%;
   }
-  
+
+/* This selects the .content-contact-me class and gives it a flex display, so the images and everything else in the box will have flexbox style. */
   .content-contact-me ul {
     display: flex;
     justify-content: space-between;
@@ -148,27 +170,31 @@ h4 {
     margin: 0;
     padding: 0;
   }
-  
+
+/* This sets the flex properties and the shrink/growth numbers of the list tiems in the .content-contact-me class, as well as a margin. */
   .content-contact-me li {
     flex: 0 0 calc(20% - 10px);
     margin: 5px;
   }
-  
+
+/* This sets the text color of the contact me links to be forest green instead of blue. */
 .content-contact-me a {
     color: var(--forest);
 }
-
+/* This is the first part of using the hover pseudoclass to make the images bigger. */
 .image-container-flex {
     height: 100%;
     width: 100%;
     transition: transform 0.5s, filter 0.5s;
     }
-    
+
+/* This uses a hover pseudoclass to make the image get bigger and birghter when the image is hovered over by the mouse. */
 .image-container-flex:hover {
       transform: scale(1.1);
       filter: brightness(80%)
     }
 
+/* This sets the height and width for the placeholder image. */
 #placeholder {
     height: 250px;
     width: 350px;
