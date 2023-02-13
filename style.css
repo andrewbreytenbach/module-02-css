@@ -200,3 +200,50 @@ h4 {
     width: 350px;
 }
 
+/* Small screens responsive design layout. */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+  .image-container-flex {
+    width: 100%;
+  }
+  .image-container-flex img {
+    width: 100%;
+  }
+  .image-text {
+    font-size: 12px;
+  }
+  .recent_photo, .images {
+    height: 150px;
+    width: 100px;
+    }
+    #placeholder {
+      height: 100px;
+      width: 150px;
+}
+}
+
+/* Medium screens responsive design layout. */
+@media only screen and (max-width: 900px) {
+  body {
+    font-size: 14px;
+  }
+  .image-container-flex {
+    width: 50%;
+  }
+  .content-about-me {
+    padding: 0 20px;
+  }
+  .recent_photo, .images {
+    height: 250px;
+    width: 200px;
+  }
+  .image-text { 
+    font-size: 14px;
+  }
+  #placeholder {
+    height: 200px;
+    width: 250px;
+}
+}
