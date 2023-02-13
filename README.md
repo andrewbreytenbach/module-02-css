@@ -11,7 +11,7 @@ This project was to create a professional portfolio to be used as a place to sho
 
 ## Getting Started
 
-In order to acess this website, just visit the following webpage: [https://andrewbreytenbach.github.io/professional-portfolio-website/] (https://andrewbreytenbach.github.io/professional-portfolio-website/)
+In order to acess this website, just visit the following webpage: [https://andrewbreytenbach.github.io/professional-portfolio-website/]   (Professional-Portfolio-Website)
 
 To get a local copy up and running, simply view the index.html file or the style.css file and see how you can play around, copy, and edit the fle for personal usage. 
 
@@ -26,9 +26,9 @@ Under the 'Work' section, this is what the user will see:
 
 This is an excellent place to view some of the projects I havee worked on. For example, but clicking on the 'Project 1' image, then you will be redirected to my Project 1 page. There the user can see my files, such as html and css files, and in the future even javascript files. 
 
-Additionally, if the user wishes to reach me personally by contacting me, then they can click on any of the 'Contact Me' links at the bottom of the webpage:
+This is an excellent place to view some of the projects I ahve worked on. For example, but clicking on the 'Project 1' image, then you will be redirected to my Project 1 page. There the user can see my files, such as html and css files, and in the future even javasceipt files. 
 
-![Section with all of my contact info](/images/Header3.png.png "Contact Me")
+Additionally, if the user wishes to reach me personally by contacting me, then they can click on any of the 'contact me' links at the bottom of the webpage. 
 
 Perhaps the best way to reach me would be by visiting my LinkedIn. 
 
@@ -46,7 +46,7 @@ Project Link: [https://github.com/andrewbreytenbach/professional-portfolio-websi
 
 ## Acknowledgments
 
-* [https://www.w3docs.com/](W3 Docs)
-* [https://developer.mozilla.org/en-US/](MDN Web Docs)
-* [https://html.com/](HTML for Beginners)
-* [https://blog.hubspot.com/website/css-tutorial](The Ultimate CSS Tutorial for Beginner Programmers)
+* [https://www.w3docs.com/] (W3 Docs)
+* [https://developer.mozilla.org/en-US/] (MDN Web Docs)
+* [https://html.com/] (HTML for Beginners)
+* [https://blog.hubspot.com/website/css-tutorial] (The Ultimate CSS Tutorial for Beginner Programmers)
