@@ -17,9 +17,19 @@ To get a local copy up and running, simply view the index.html file or the style
 
 ## Usage
 
-This is an excellent place to view some of the projects I have worked on. For example, but clicking on the 'Project 1' image, then you will be redirected to my Project 1 page. There the user can see my files, such as html and css files, and in the future even javasceipt files. 
+When the user first visits the webpage, they will find a very generic 'About Me' section that give some brief information about me:
 
-Additionally, if the user wishes to reach me personally by contacting me, then they can click on any of the 'contact me' links at the bottom of the webpage. 
+![Header image of the webpage](/images/header1.png.png "About Me")
+
+Under the 'Work' section, this is what the user will see:
+
+![Section with all of my work projects](/images/header2.png.png "Work Projects")
+
+This is an excellent place to view some of the projects I havee worked on. For example, but clicking on the 'Project 1' image, then you will be redirected to my Project 1 page. There the user can see my files, such as html and css files, and in the future even javascript files. 
+
+Additionally, if the user wishes to reach me personally by contacting me, then they can click on any of the 'Contact Me' links at the bottom of the webpage:
+
+![Section with all of my contact info](/images/Header3.png.png "Contact Me")
 
 Perhaps the best way to reach me would be by visiting my LinkedIn. 
 
