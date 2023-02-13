@@ -28,7 +28,9 @@ This is an excellent place to view some of the projects I havee worked on. For e
 
 This is an excellent place to view some of the projects I ahve worked on. For example, but clicking on the 'Project 1' image, then you will be redirected to my Project 1 page. There the user can see my files, such as html and css files, and in the future even javasceipt files. 
 
-Additionally, if the user wishes to reach me personally by contacting me, then they can click on any of the 'contact me' links at the bottom of the webpage. 
+Additionally, if the user wishes to reach me personally by contacting me, then they can click on any of the 'contact me' links at the bottom of the webpage:
+
+![Footer image of the webpage](/images/header2.png.png "Contact Me")
 
 Perhaps the best way to reach me would be by visiting my LinkedIn. 
 
