@@ -30,7 +30,7 @@ This is an excellent place to view some of the projects I ahve worked on. For ex
 
 Additionally, if the user wishes to reach me personally by contacting me, then they can click on any of the 'contact me' links at the bottom of the webpage:
 
-![Footer image of the webpage](/header3.png "Contact Me")
+![Footer image of the webpage](/Header3.png "Contact Me")
 
 Perhaps the best way to reach me would be by visiting my LinkedIn. 
 
