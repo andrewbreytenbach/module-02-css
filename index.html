@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Andrew Breytenbach's Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- In the head there is the link to the css sheet and also a link to the font style I chose to use for the website. -->
     <link href="https://fonts.cdnfonts.com/css/freemono" rel="stylesheet">
   </head>
   <body>
+    <!-- This header contains the background header image for the entire website -->
     <header id="header-background">
       <h1><span>Andrew Breytenbach</span></h1>  
+      <!-- This is hte nav bar that holds all of the anchor elements for the website -->
         <nav>
           <a href="#about-me">About Me</a> 
           <a href="#resume">Resume</a> 
@@ -18,13 +21,16 @@
           <a href="#contact-me">Contact</a> 
         </nav>
     </header>
+    <!-- This is the first section of the website, which is About Me.  -->
     <div class="container-about-me">
         <div class="heading-about-me">
           <h2 id="about-me">About Me</h2>
         </div>
         <a>
+          <!-- This image element is a recent picture that is inside of the About ME section -->
           <img class="recent_photo" class="images" id="recent.photo" src="./images/rename.jpeg.jpg" alt="This is a recent picture of my wife and I.">
         </a>
+        <!-- This div contains a paragraph explaining the picture and more information about me. -->
         <div class="content-about-me">
           <p> Hello everyone! My name is Andrew Breytenbach and I live in Charleston, South Carolina with my amazing wife Natalie. I am very excited to be a part of the coding bootcamp and to get to learn how to problem solve and write code with everyone.</p>
         </div>
@@ -33,6 +39,7 @@
         <div class="heading-work">
           <h2 id="work-me">Work</h2>
         </div>
+        <!-- Each image in this section is inside of a container so that each image has both relative and absolute positioning. Each image also has text that hovers over it to describe what the image sends a link to.  -->
         <div class="image-container">
           <a href="https://github.com/andrewbreytenbach">
             <div class="image-container-flex">
@@ -65,6 +72,7 @@
             </div>
           </a>
         </div>
+        <!-- This is a div holding a paragraph explaining all of the images in the previous section and what the links are for.  -->
         <div class="content-work">
           <p>This is where I will showcase my future projects as a developer. Since I currently don't have any projects to add to my portfolio, the links on each porject image will direct to my Github page.</p>
         </div>
@@ -73,6 +81,7 @@
         <div class="heading-contact-me">
           <h2 id="contact-me">Contact Me</h2>
         </div>
+        <!-- This last section is an unordered list of contact information, similar to the nav bar, but with links that send the user off of my website and into other webpages. -->
         <div class="content-contact-me">
           <p>
             <ul>
@@ -92,9 +101,11 @@
           </p>
         </div>
       </div> 
+      <!-- This footer tells the user at the bottom of the webpage more information. -->
       <footer class="footer">
         <h4>Andrew Breytenbach's Portfolio</h4>
       </footer>
+      <!-- This is the script tag which contains the javascript reference file -->
       <script src="index.js"></script>
     </body>
   </html>
